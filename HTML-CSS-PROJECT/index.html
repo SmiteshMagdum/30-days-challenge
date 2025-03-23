@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML CSS Projects</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #002339;
+        color: #fff;
+        text-align: center;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin-top: 50px;
+      }
+      .row {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+      .card {
+        background: linear-gradient(to right, #00c6ff, #0072ff);
+        padding: 20px;
+        border-radius: 15px;
+        width: 300px;
+        text-align: center;
+      }
+      .card img {
+        width: 100%;
+        border-radius: 10px;
+      }
+      .card h3 {
+        margin: 10px 0;
+      }
+      .buttons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+      }
+      .btn {
+        text-decoration: none;
+        padding: 10px 15px;
+        border: 2px solid #fff;
+        background: transparent;
+        color: #fff;
+        border-radius: 10px;
+        font-size: 18px;
+        transition: 0.3s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .btn i {
+        font-size: 20px;
+        color: #fff;
+      }
+      .btn:hover {
+        background: #ff9800;
+        border-color: #ff9800;
+      }
+      .third-card {
+        align-self: flex-start;
+        margin-left: 27px;
+      }
+      h2 {
+        margin-right: 400px;
+        position: relative;
+        display: inline-block;
+      }
+      .nav-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #001a2e; /* Dark background */
+}
+
+.heading h2 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+}
+
+.star-btn button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 15px;
+    font-size: 16px;
+    color: #1ec5db; 
+    background: transparent;
+    border: 2px solid #1fc1d6;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.star-btn button span {
+    font-weight: bold;
+}
+
+.star-btn button::after {
+    content: "★";
+    color: #d41bb6;
+    font-size: 16px;
+}
+
+.star-btn button:hover {
+    background: #ffb300;
+    color: #001a2e;
+}
+
+.star-btn a {
+    text-decoration: none;
+}
+
+    </style>
+  </head>
+  <body>
+    <nav>
+<div class="nav-wrap">
+<div class="heading">
+<h2>HTML-CSS Projects</h2>
+</div>
+<div class="star-btn">
+<a target="blank" href="https://github.com/SmiteshMagdum"> 
+<button> 
+    <span>My GitHub</span>
+</button>
+</a>
+</div>
+</div>
+</nav>
+    <div class="container">
+      <div class="row">
+        <div class="card">
+          <img src="Screenshot 2025-03-23 135503.png" alt="Qr Code Generator" />
+          <h3>Qr Code Generator</h3>
+          <div class="buttons">
+            <a
+              href="https://30-days-challenge-tu2g.vercel.app/"
+              target="_blank"
+              class="btn"
+            >
+              <i class="fa-solid fa-up-right-from-square"></i>
+            </a>
+            <a
+              href="https://github.com/SmiteshMagdum/30-days-challenge/tree/main/3rd_Project"
+              target="_blank"
+              class="btn"
+            >
+              <i class="fa-solid fa-code"></i>
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Screenshot 2025-03-23 142600.png" alt="TO-DO List" />
+          <h3>TO-DO List</h3>
+          <div class="buttons">
+            <a
+              href="https://30-days-challenge-gjy1.vercel.app/"
+              target="_blank"
+              class="btn"
+            >
+              <i class="fa-solid fa-up-right-from-square"></i>
+            </a>
+            <a href="#" target="_blank" class="btn">
+              <i class="fa-solid fa-code"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="card third-card">
+        <img src="Screenshot 2025-03-23 144653.png" alt="Weather App" />
+        <h3>Weather App</h3>
+        <div class="buttons">
+          <a
+            href="https://30-days-challenge-7t1b.vercel.app/"
+            target="_blank"
+            class="btn"
+          >
+            <i class="fa-solid fa-up-right-from-square"></i>
+          </a>
+          <a
+            href="https://github.com/SmiteshMagdum/30-days-challenge/tree/main/2nd_project"
+            target="_blank"
+            class="btn"
+          >
+            <i class="fa-solid fa-code"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
