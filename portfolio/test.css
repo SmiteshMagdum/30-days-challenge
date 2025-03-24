@@ -28,9 +28,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 15px;
   margin-bottom: 20px;
   margin-right: 500px;
+  text-align: center;
 }
 
 .profile img {
@@ -62,6 +64,7 @@ body {
 
 .profile-text {
   text-align: left;
+  max-width: 400px;
 }
 
 .profile-text h2 {
@@ -70,6 +73,7 @@ body {
     margin-left: 0px;
     position: relative;
     margin-top: 50px;
+    font-size: 22px;
     
 }
 
@@ -217,6 +221,9 @@ body {
 
   .skill-btn {
     width: 100px;
+  }
+  .profile-text {
+    text-align: center;
   }
 }
 
