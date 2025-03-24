@@ -1,4 +1,4 @@
-/* General Styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -34,9 +34,11 @@ body {
 }
 
 .profile img {
-  /* margin-left: 2px; */
+  
   margin-top: 20px;
   border-radius: 10px;
+  
+  
 }
 .profile #sec {
   margin-left: -px;
@@ -120,6 +122,9 @@ body {
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
+  justify-content: center;
+  max-width: 300px;
+  margin: auto;
 }
 
 .skill-btn {
@@ -131,7 +136,8 @@ body {
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
-  
+  width: calc(33.33% - px); 
+  text-align: center;
 }
 
 
@@ -148,24 +154,27 @@ body {
   color:#ffff;
   font-size: 14px;
   border: 2px solid white;
-  border-radius: 10px; /* Makes the border rounded */
+  border-radius: 10px; 
   padding: 15px; 
+  animation: neonGlow 1.5s infinite alternate;
 }
 .projects #sec{
   color:#ffff;
   font-size: 14px;
   border: 2px solid white;
-  border-radius: 10px; /* Makes the border rounded */
+  border-radius: 10px; 
   padding: 15px; 
   margin-top: 25px ;
+  animation: neonGlow 1.5s infinite alternate;
 }
 .projects #third{
   color:#ffff;
   font-size: 14px;
   border: 2px solid white;
-  border-radius: 10px; /* Makes the border rounded */
+  border-radius: 10px; 
   padding: 15px; 
   margin-top: 25px ;
+  animation: neonGlow 1.5s infinite alternate;
 }
 .projects #forth{
   color:#ffff;
@@ -174,12 +183,24 @@ body {
   border-radius: 10px; 
   padding: 15px; 
   margin-top: 25px ;
+  animation: neonGlow 1.5s infinite alternate;
 }
 .projects #forth  a{
   color:blueviolet;
 }
+@keyframes neonGlow {
+  0% {
+    box-shadow: 0 0 3px #26a8cf, 0 0 6px #22bce2, 0 0 9px #2decdc;
+  }
+  50% {
+    box-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 15px #00ffff;
+  }
+  100% {
+    box-shadow: 0 0 3px #66e3f3, 0 0 6px #48c8fa, 0 0 6px #41d2e6;
+  }
+}
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .container {
     max-width: 100%;
@@ -198,4 +219,5 @@ body {
     width: 100px;
   }
 }
+
 
