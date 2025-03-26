@@ -52,7 +52,7 @@ body {
   margin-left: -px;
   position: relative;
   top: -20px;
-  height: ;
+  height: 
 }
 .profile #first {
   margin-left: -px;
@@ -70,10 +70,8 @@ body {
 .profile-text h2 {
     color:white;
     font-family:Arial, Helvetica, sans-serif;
-    margin-left: 0px;
-    position: relative;
-    margin-top: 50px;
-    font-size: 22px;
+    margin-left: 100px;
+    margin-top: 10px;
     
 }
 
